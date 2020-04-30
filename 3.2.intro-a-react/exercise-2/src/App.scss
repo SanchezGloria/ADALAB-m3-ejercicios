@@ -1,0 +1,54 @@
+.App {
+  border: 1px solid grey;
+  box-shadow: 4px 7px 15px 10px rgba(207, 207, 207, 1);
+  margin: 30px auto;
+  width: 400px;
+
+  .App-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    // margin: 30px;
+    &-pic {
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    &-title {
+      margin-top: 40px;
+      margin-left: 40px;
+      font-size: 1.25em;
+      font-family: 'Roboto', sans-serif;
+    }
+    &-subtitle {
+      margin-left: 40px;
+      font-size: 0.75em;
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+  &-main-content {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(161, 159, 159);
+  }
+  &-footer {
+    display: flex;
+    justify-content: space-between;
+    &-readmore {
+      color: rgb(161, 159, 159);
+      margin-left: 20px;
+      margin-top: 0px;
+    }
+    &-likes {
+      margin-right: 20px;
+    }
+  }
+}
+.fas.fa-heart {
+  color: rgb(245, 56, 56);
+  margin-left: 10px;
+}
